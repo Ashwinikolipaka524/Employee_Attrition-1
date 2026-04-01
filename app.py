@@ -2,9 +2,9 @@ import streamlit as st
 import joblib 
 import pandas as pd
 import numpy as np
-model=joblib.load("C:/Users/Kolipaka Ashwini/OneDrive/Python/project-1/assests/attrition_model.pkl")
-label_encoder=joblib.load("C:/Users/Kolipaka Ashwini/OneDrive/Python/project-1/assests/label_encoder.pkl")
-feature_columns=joblib.load("C:/Users/Kolipaka Ashwini/OneDrive/Python/project-1/assests/feature_columns.pkl")
+model=joblib.load("attrition_model.pkl")
+label_encoder=joblib.load("label_encoder.pkl")
+feature_columns=joblib.load("feature_columns.pkl")
 
 st.title("Employee Attrition Prediction")
 
